@@ -33,7 +33,7 @@ Before proceeding with the integration, ensure that your project meets the follo
 
    ```toml
     [versions]
-    sightcallSdk = "7.5.1" # Replace with the latest version
+    sightcallSdk = "7.5.2" # Replace with the latest version
 
     [libraries]
     sightcall-sdk = { group = "com.sightcall.universal", name = "universal-sdk", version.ref = "sightcallSdk" }
@@ -65,8 +65,8 @@ If you're not using the Gradle Version Catalog, follow these steps to add the SD
 
    ```gradle
    dependencies {
-          implementation "com.sightcall.universal:universal-sdk:7.5.1" // Replace with the latest version
-          implementation "com.sightcall.sdf:sdf:7.5.1" // Replace with the latest version
+          implementation "com.sightcall.universal:universal-sdk:7.5.2" // Replace with the latest version
+          implementation "com.sightcall.sdf:sdf:7.5.2" // Replace with the latest version
     }' 
 
 
